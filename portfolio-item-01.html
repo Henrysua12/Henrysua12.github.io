@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio </title>
+    <link rel="stylesheet" href="styles.css">  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/894b6de76a.js" crossorigin="anonymous"></script>
+        
+</head>
+
+<body>
+    <header>
+        <button class = "nav-toggle" aria-label="toggle navigation">
+        <span class = "hamburger"></span>
+        </button>
+        <nav class = "nav">
+            <ul class = "nav__list">
+                <li class = "nav__item"><a href = "index.html" class = "nav__link">Home</a></li>
+                <li class = "nav__item"><a href = "index.html#services" class = "nav__link">Services</a></li>
+                <li class = "nav__item"><a href = "index.html#about" class = "nav__link">About me</a></li>
+                <li class = "nav__item"><a href = "index.html#projects" class = "nav__link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Introduction-->
+    <section class = "intro" id = "home">
+        <h1 class = "section__title section__title--intro">
+           The Game <strong>of Life</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">C++ Data Structures</p>
+        <img src= "C:\Users\suare\Desktop\vs code\portfolio\Imgs\gen-0000.png" alt = "Picture of Project" class="intro__img">
+    </section>
+
+    <div class = "portfolio-item-individual">
+        <p>The Game of Life is a cellular automaton game that has 0 players. Invented by mathematician John Conway. Originally a player would input the inital state however, this version works a bit different. This is smaller version of Conway's game of life built in C++ with a big emphasis on arrays and loops. Instead a user input what generation it wants to see from the original state and it will produce the generation.</p>
+    </div>
+
+    <div class = "portfolio-item-images">
+        <img src = "C:\Users\suare\Desktop\vs code\portfolio\Imgs\gen-001.png" alt = "Gen 1 of GOL">
+        <img src = "C:\Users\suare\Desktop\vs code\portfolio\Imgs\gen-002.png" alt = "Gen 2 of GOL">
+        <img src = "C:\Users\suare\Desktop\vs code\portfolio\Imgs\gen-003.png" alt = "Gen 3 of GOL">
+        <img src = "C:\Users\suare\Desktop\vs code\portfolio\Imgs\gen-0018361.png" alt = "Gen 18261 of GOL">
+    </div>
+
+    <div class = "portfolio-item-individual">
+        
+        <p>For this version of Conway's game of life, I’ve confined it a board size of 10 by 20. Above you can see 4 images from the program each from generation mainly generation 1, 2, 3 and then generation 18,361 as you can see after a while cell have arranged in an odd pattern. The rules for Conway’s game of life are simple but can lead to some very interesting concepts. Which you can read more about <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">here</a>. Below are the rules to Conway’s game of life. 
+            <ol>
+                <li>If a live cell has fewer than 2 neighbors, It dies (underpopulation).</li>
+                <li>If a live cell has more than 3 neighbors, It dies (overpopulation).</li>
+                <li>If a dead cell has exactly 3 neighbors, It becomes alive (reproduction).</li>
+            </ol>
+        </p>
+        <p>In this project I learned about Data Structures such as Arrays and how to use principles such as if statements and loops. The script works by running it with a value to indicate which generation you want displayed. If you gave it the value of 15 it would display the 15th generation of cells. The value of 0 would just display the base generation.</p>
+        
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer" >
+        <a href="mailto:suarezhenry611@gmail.com" class="footer__link">Suarezhenry611@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/henry-suarez-1a5b69241/"><i class="fa-brands fa-linkedin"></i></a></li>
+
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/Henrysua12"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

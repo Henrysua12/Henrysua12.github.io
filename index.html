@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio </title>
+    <link rel="stylesheet" href="styles.css">  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/894b6de76a.js" crossorigin="anonymous"></script>
+        
+</head>
+
+<body>
+    <header>
+       
+        <button class = "nav-toggle" aria-label="toggle navigation">
+        <span class = "hamburger"></span>
+        </button>
+        <nav class = "nav">
+            <ul class = "nav__list">
+                <li class = "nav__item"><a href = "#home" class = "nav__link">Home</a></li>
+                <li class = "nav__item"><a href = "#services" class = "nav__link">Services</a></li>
+                <li class = "nav__item"><a href = "#about" class = "nav__link">About me</a></li>
+                <li class = "nav__item"><a href = "#projects" class = "nav__link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Introduction-->
+    <section class = "intro" id = "home">
+        <h1 class = "section__title section__title--intro">
+            Hello! <strong>I am Henry Suarez</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Student at City College of New York</p>
+        <img src= "C:\Users\suare\Desktop\vs code\portfolio\Imgs\360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg" alt = "Picture of me" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Who I am </h2>
+        <div class = "services">
+            <div class="service">
+                <h3>Interests</h3>
+                <p>I have a couple of interests in the fields of computer science mainly software engineering, game design, app development and cyber security. However, I’m open to all fields as I do love to learn and try new things. As I mentioned before I truly love to learn, I enjoy being taught and then using what I’ve learned to build my own things or solve problems.</p>
+            </div>
+
+            <div class="service">
+                <h3>Hobbies</h3>
+                <p>Two of my favorite hobbies I’d like to share are photography and language learning. It started back in highschool, at first it was just a few pictures of friends, but it eventually developed into professional portraits and landscape images. It also led me into using programs such as Adobe lightroom and photoshop. Language learning came about after visiting my home country I realized how important it was to be able to communicate with people in a language they’re familiar with which is why I tasked myself with learning a 3rd language, (Portuguese) and so far, it’s been fun!</p>
+            </div>
+
+            <div class="service">
+                <h3>Skills/Abilities</h3>
+                <p>My main languages that I have been using are HTML, CSS, JavaScript, Python and C++. As for relevant class work, I’ve taken Data structures and Discrete math. As well as experince in Adobe Lightroom and Adobe Photoshop I am fluent in Spanish and a beginner in Portuguese. I’m adept, eager to learn, a problem solver, creative and organized.</p>
+                
+            </div>
+
+        
+        </div>
+        <a href="#projects" class ="btn">My Projects</a>
+    </section>
+
+    <!--About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class ="section__subtitle section__subtitle--about">Student at City College of New York</p>
+        <div class="about-me__body">
+            <p>As you’ve probably read from the title, my name is Henry Suarez. I am first generation Latino looking to break into tech. Both my parents are originally from Ecuador however, I was born here and mixed with both cultures. I’ve always had an interest in technology because as long as I can remember I was always amazed on how it can improve people’s live and quite literally provide someone the world in a 6-inch phone screen or in a 13-inch laptop screen. </p>
+        </div>
+        <img src = "C:\Users\suare\Desktop\vs code\portfolio\Imgs\me1.jpg" alt="Picture Of Me" class= "about-me__img">
+    </section>
+
+    <section class="my--projects" id="projects">
+        <h2 class="section__title section__title--projects">My Projects</h2>
+        <p class ="section__subtitle section__subtitle--projects">Some of my Projects</p>
+
+        <div class="projects">
+            
+            <a href = "C:\Users\suare\Desktop\vs code\portfolio\portfolio-item-01.html" class="portfolio__item">
+                <img src="C:\Users\suare\Desktop\vs code\portfolio\Imgs\gen-0000.png" alt="Project 1 Conways Game of Life" class="portfolio__img">
+
+            </a>
+            
+
+            <a href = "C:\Users\suare\Desktop\vs code\portfolio\index-etch.html" class="portfolio__item">
+                <img src="C:\Users\suare\Desktop\vs code\portfolio\Imgs\etch1.png" alt="Etch-a-Sketch" class="portfolio__img">
+
+            </a>
+
+            
+       
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer" >
+        <a href="mailto:suarezhenry611@gmail.com" class="footer__link">Suarezhenry611@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/henry-suarez-1a5b69241/"><i class="fa-brands fa-linkedin"></i></a></li>
+
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/Henrysua12"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
